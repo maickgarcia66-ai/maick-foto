@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/style.css">
+<style type="text/tailwindcss">
+
+
+
+
+
+        @theme{
+            --color-clifford: #da373d;
+            --color-mimundo-azul: #005288;
+            --color-mimundo-lightgreen: #1F7D6A;
+            --color-mimundo-orange: #E2663b;
+            --color-mimundo-naranja: #ff795c;
+            --color-mimundo-white: #FDF5E9;
+            --color-mimundo-black: #3a4a4a;
+        }
+
+    </style>
+
+    <style>
+
+
+
+        .public-sans {
+        font-family: "Public Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        }
+
+.newsreader-400 {
+  font-family: "Newsreader", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+        .hero {
+
+
+        }
+
+    </style>
+
+    <title>Document</title>
+</head>
+<body class="">
+   	<header class="bg-mimundo-naranja w-full">
+        <div class="h-9 bg-mimundo-azul flex">
+            <div class="flex justify-end w-full max-w-5xl mx-auto">
+           <div class="flex gap-2 p-1 h-12">
+               <div class="h-2">
+                   <img src="./image/rrss-tiktok.webp" alt="" class="h-6">
+               </div>
+               <div>
+                   <img src="./image/rrss-fb.webp" alt="" class="h-6">
+               </div>
+               <div>
+                   <img src="./image/rrss-ig.webp" alt="" class="h-6">
+               </div>
+           </div>
+            </div>
+        </div>
+        <div class="max-w-5xl mx-auto">
+           <div class="flex">
+               <div class="h-4">
+                   <img src="./image/logo.png" alt="" class="h-16">
+               </div>
+               <div class="flex flex-col h-full w-full justify-end  ">
+                   <div class="newsreader-400 text-5xl pt-5 ">
+                       <h1 class=" text-mimundo-azul">Maick Garcia Fotografía</h1>
+                   </div>
+                  	<nav class=" h-6 max-w-5xl mx-auto w-full justify-end">
+                       <ul class="flex gap-4 text-black w-full justify-end">
+                           <li class=""><a href="index.html">Inicio</a></li>
+                           <li><a href="nosotros.html">Nosotros</a></li>
+                           <li><a href="servicios.html">servicios </a></li>
+                           <li><a href="contactenos.html">Contáctanos</a></li>
+                       </ul>
+                  	</nav>
+               </div>
+           </div>
+        </div>
+       <div class="p-8   hero h-60 w-full mx-auto text-mimundo-white bg-cover bg-center "
+           style="background-image:url('./image/header.jpg');"
+       >
+           <div class="max-w-5xl mx-auto">
+               <p class="text-xl drop-shadow-lg">Fotografía Profesional</p>
+               <p class="text-5xl font-black drop-shadow-lg">Maick Garcia</p>
+               <p class="text-2xl drop-shadow-lg">Tu vida en una sola mirada</p>
+           </div>
+       </div>
+
+   	</header>
+
+
+
+    <main class="min-h-[70vh]  max-w-5xl px-2 mx-auto py-12 ">
+        <form action="#">
+
+        <h2 class="text-3xl text-center font-bold mb-4">Contáctenos </h2>
+<div class="flex flex-col gap-3 mx-auto max-w-80">
+    <div class="flex gap-3">
+        <span class="block min-w-24 ">Nombre</span>
+        <span><input class="text-black border-1" type="text"></span>
+    </div>
+
+    <div class="flex gap-3">
+        <span class="block min-w-24 ">Apellidos</span>
+        <span><input class="text-black border-1" type="text"></span>
+    </div>
+
+    <div class="flex gap-3">
+        <span class="block min-w-24 ">Email</span>
+        <span><input class="text-black border-1" type="text"></span>
+    </div>
+
+    <div class="flex gap-3">
+        <span class="block min-w-24 ">Comentarios</span>
+        <span><textarea class="text-black border-1" type="text"></textarea></span>
+    </div>
+    <div class="flex gap-3">
+        <span class="block min-w-24"><input type="submit" value="Enviar" class="bg-mimundo-azul px-4 py-2 text-mimundo-white"></span>
+        <span class="block min-w-24 "><input type="reset" value="Cancelar" class="bg-mimundo-orange py-2 px-4 text-mimundo-white"/></span>
+    </div>
+
+
+</div>
+        </form>
+
+	</main>
+	<footer class="min-h-24 bg-mimundo-azul">
+	  <div class="max-w-3xl  mx-auto p-4 text-mimundo-white">
+			<div class="flex gap-12 mx-auto justify-center">
+			    <div class="flex flex-col gap-1">
+					<span>Móvil: 384 908 3743</span>
+					<span>Dirección: Cl 87 67-25</span>
+					<span>E-mail: maickfotografia@gmail.com</span>
+				</div>
+				<div class="flex flex-col gap-1">
+
+                <div class="flex w-full justify-between gap-4">
+                    <img src="./image/rrss-tiktok.webp" alt="" class="h-6">
+                    <span class="w-full">@maickfotografia</span>
+                </div>
+                <div class="flex w-full justify-between gap-4">
+                    <img src="./image/rrss-fb.webp" alt="" class="h-6">
+                    <span>@maickfotografia</span>
+                </div>
+                <div class="flex w-full jusitify-between gap-4">
+                    <img src="./image/rrss-ig.webp" alt="" class="h-6">
+                    <span class=" w-full">@maickfotografia</span>
+                </div>				</div>
+			</div>
+
+	  </div>
+	</footer>
+    <script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+    </script>
+
+</body>
+</html>

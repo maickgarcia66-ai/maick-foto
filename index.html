@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/style.css">
+<style type="text/tailwindcss">
+        @theme{
+            --color-clifford: #da373d;
+            --color-mimundo-azul: #005288;
+            --color-mimundo-lightgreen: #1F7D6A;
+            --color-mimundo-orange: #E2663b;
+            --color-mimundo-naranja: #ff795c;
+            --color-mimundo-white: #FDF5E9;
+            --color-mimundo-black: #3a4a4a;
+        }
+
+    </style>
+
+    <style>
+
+
+
+        .public-sans {
+            font-family: "Public Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: <weight>;
+            font-style: normal;
+        }
+
+.newsreader-400 {
+  font-family: "Newsreader", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+        .hero {
+
+
+        }
+
+    </style>
+
+    <style>
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+    </style>
+
+    <title>Document</title>
+</head>
+<body class="">
+    	<header class="bg-mimundo-naranja w-full">
+         <div class="h-9 bg-mimundo-azul flex">
+             <div class="flex justify-end w-full max-w-5xl mx-auto">
+            <div class="flex gap-2 p-1 h-12">
+                <div class="h-2">
+                    <img src="./image/rrss-tiktok.webp" alt="" class="h-6">
+                </div>
+                <div>
+                    <img src="./image/rrss-fb.webp" alt="" class="h-6">
+                </div>
+                <div>
+                    <img src="./image/rrss-ig.webp" alt="" class="h-6">
+                </div>
+            </div>
+             </div>
+         </div>
+         <div class="max-w-5xl mx-auto">
+            <div class="flex">
+                <div class="h-4">
+                    <img src="./image/logo.png" alt="" class="h-16">
+                </div>
+                <div class="flex flex-col h-full w-full justify-end  ">
+                    <div class="newsreader-400 text-5xl pt-5 ">
+                        <h1 class=" text-mimundo-azul">Maick Garcia Fotografía</h1>
+                    </div>
+                   	<nav class=" h-6 max-w-5xl mx-auto w-full justify-end">
+                        <ul class="flex gap-4 text-black w-full justify-end">
+                            <li class=""><a href="index.html">Inicio</a></li>
+                            <li><a href="nosotros.html">Nosotros</a></li>
+                            <li><a href="servicios.html">servicios </a></li>
+                            <li><a href="contactenos.html">Contáctanos</a></li>
+                        </ul>
+                   	</nav>
+                </div>
+            </div>
+         </div>
+        <div class="p-8   hero h-60 w-full mx-auto text-mimundo-white bg-cover bg-center "
+            style="background-image:url('./image/header.jpg');"
+        >
+            <div class="max-w-5xl mx-auto">
+                <p class="text-xl drop-shadow-lg">Fotografía Profesional</p>
+                <p class="text-5xl font-black drop-shadow-lg">Maick Garcia</p>
+                <p class="text-2xl drop-shadow-lg">Tu vida en una sola mirada</p>
+            </div>
+        </div>
+
+    	</header>
+
+	<main class="bg-blue-30 min-h-80 px-2">
+
+        <section class="py-12 max-w-5xl mx-auto">
+        <h2 class="text-center text-3xl mb-8 font-bold">Tu historia contada atraves de mi lente</h2>
+            <p class="text-justify my-4 ">
+
+                En mi mundo, la fotografía es mucho más que presionar un botón: es la oportunidad de congelar emociones, registrar la esencia de las personas y contar historias sin palabras. Con más de una década de experiencia capturando instantes únicos, me he convertido en el aliado de confianza para quienes buscan guardar sus momentos más valiosos, ya sea una boda soñada, un retrato familiar o un proyecto personal</p>
+        </section>
+
+        <div class="mx-auto text-center">
+          <div class=" inline-flex flex-wrap gap-2 mx-auto">
+            <div class="flex flex-col">
+              <a href="./image/foto1.jpg" target="_blank">
+                <img class="h-full w-32" src="./image/foto1.jpg" />
+              </a>
+              <div class="text-sm text-center">Texto Fotos</div>
+            </div>
+            <div class="flex flex-col">
+              <a href="./image/foto2.jpg" target="_blank">
+                <img class="h-full w-32" src="./image/foto2.jpg" />
+              </a>
+              <div class="text-sm text-center">Texto Fotos</div>
+            </div>
+            <div class="flex flex-col">
+              <a href="./image/foto3.jpg" target="_blank">
+                <img class="h-full w-32" src="./image/foto3.jpg" />
+              </a>
+              <div class="text-sm text-center">Texto Fotos</div>
+            </div>
+            <div class="flex flex-col">
+              <a href="./image/foto4.jpg" target="_blank">
+                <img class="h-full w-32" src="./image/foto4.jpg" />
+              </a>
+              <div class="text-sm text-center">Texto Fotos</div>
+            </div>
+            <div class="flex flex-col">
+              <a href="./image/foto5.jpg" target="_blank">
+                <img class="h-full w-32" src="./image/foto5.jpg" />
+              </a>
+              <div class="text-sm text-center">Texto Fotos</div>
+            </div>
+            <div class="flex flex-col">
+              <a href="./image/foto6.jpg" target="_blank">
+                <img class="h-full w-32" src="./image/foto6.jpg" />
+              </a>
+              <div class="text-sm text-center">Texto Fotos</div>
+            </div>
+            <div class="flex flex-col">
+              <a href="./image/foto7.jpg" target="_blank">
+                <img class="h-full w-32" src="./image/foto7.jpg" />
+              </a>
+              <div class="text-sm text-center">Texto Fotos</div>
+            </div>
+            <div class="flex flex-col">
+              <a href="./image/foto8.jpg" target="_blank">
+                <img class="h-full w-32" src="./image/foto8.jpg" />
+              </a>
+              <div class="text-sm text-center">Texto Fotos</div>
+            </div>
+          </div>
+        </div>
+
+<br>
+
+<!-- The dots/circles -->
+
+
+
+	</main>
+	<footer class="min-h-24 bg-mimundo-azul">
+	  <div class="max-w-3xl  mx-auto p-4 text-mimundo-white">
+			<div class="flex gap-12 mx-auto justify-center">
+			    <div class="flex flex-col gap-1">
+					<span>Móvil: 384 908 3743</span>
+					<span>Dirección: Cl 87 67-25</span>
+					<span>E-mail: maickfotografia@gmail.com</span>
+				</div>
+				<div class="flex flex-col gap-1">
+
+                <div class="flex w-full justify-between gap-4">
+                    <img src="./image/rrss-tiktok.webp" alt="" class="h-6">
+                    <span class="w-full">@maickfotografia</span>
+                </div>
+                <div class="flex w-full justify-between gap-4">
+                    <img src="./image/rrss-fb.webp" alt="" class="h-6">
+                    <span>@maickfotografia</span>
+                </div>
+                <div class="flex w-full jusitify-between gap-4">
+                    <img src="./image/rrss-ig.webp" alt="" class="h-6">
+                    <span class=" w-full">@maickfotografia</span>
+                </div>				</div>
+			</div>
+
+	  </div>
+	</footer>
+
+
+</body>
+</html>
